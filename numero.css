@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #a5a5c3;
+    
 }
 
 @font-face {
@@ -33,7 +33,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 270px;
-    background-color: #B2DECD;
+    background-color: #b974cc;
     width: 563px;
     border-radius: 15px;
 }
@@ -60,12 +60,11 @@ input{
 
 #sortear{
     margin-top: 10px;
-    color: white;
+    color: black;
     border-radius: 33px;
     width: 100px;
-    background-color: #A56CBD;
+    background-color: #ffffff;
     height: 37px;
-    border: 2px solid white;
     font-size: 'titulo';
     font-size: 15px;
 }
@@ -74,6 +73,26 @@ input{
     font-family: 'titulo';
     font-size: 25px;
     color: white;
+}
+
+.voltar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+a {
+    text-decoration: none;
+    color: #b974cc;
+    font-size: 19px;
+    background-color: #ffffff;
+
+    width: 105px;
+    height: 32px;
+    text-align: center;
+    border-radius: 16px;
+  
+
 }
 
 

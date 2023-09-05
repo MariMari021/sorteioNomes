@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Menu - Sorteador</title>
+    <style>
+        * {
+            border: 0;
+            padding: 0;
+            margin: 0;
+        }
+
+        @font-face {
+            font-family: 'sand';
+            src: url(static/Quicksand-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'titulo';
+            src: url(static/Quicksand-SemiBold.ttf);
+        }
+
+        button {
+            margin: 34px;
+            background-color: #b974cc;
+            border-radius: 20px;
+            border: black solid 1px;
+            font-family: 'sand';
+            font-size: 25px;
+            width: 322px;
+            height: 79px;
+            color: white;
+            cursor: pointer;
+            transition: transform .2s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        h2 {
+            font-family: 'titulo';
+            font-size: 45px;
+            color: #b974cc;
+            margin-left: 11%;
+            margin-bottom: 3%;
+        }
+
+        section {
+            margin-top: 15%;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <main>
+        <section>
+            <h2>Escolha o método de sorteio</h2>
+            <div>
+                <a href="numero.html"><button>Sorteador de números</button></a>
+                <a href="nomes.html"><button>Sorteador de nomes</button></a>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

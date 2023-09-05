@@ -1,12 +1,10 @@
-*{
+* {
     border: 0;
     padding: 0;
     margin: 0;
 }
 
-body{
-    background-color: #a5a5c3;
-}
+
 
 @font-face {
     font-family: 'sand';
@@ -18,5 +16,88 @@ body{
     src: url(static/Quicksand-SemiBold.ttf);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+}
+
+.container h2 {
+    font-family: 'titulo';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.sorteio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b974cc;
+    height: 323px;
+    width: 681px;
+    border-radius: 20px;
+}
+
+.container {
+    font-family: 'sand';
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.formulario {
+    display: grid;
+    justify-content: center;
+
+}
+
+button {
+    width: 123px;
+    height: 32px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'sand';
+    font-size: 15px;
+    margin-left: 30%;
+
+}
+
+textarea {
+width: 329px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    resize: none;
+    height: 54px;
+    border-radius: 9px;
+}
+
+.resultado {
+    margin-top: 2%;
+    /* margin-left: 41%; */
+
+}
+
+.voltar {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
+a {
+    text-decoration: none;
+    color: #b974cc;
+    font-size: 19px;
+    background-color: #ffffff;
+    margin-left: 27px;
+    width: 105px;
+    height: 32px;
+    text-align: center;
+    border-radius: 16px;
+    margin-right: 462px;
+
+}
+
+.resultado p{
+    text-align: center;
+}

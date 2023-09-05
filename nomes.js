@@ -32,7 +32,7 @@ function gerarNumeroAleatorio(tamanhoArray){
 }
 
 function mostrarResultado(nome){
-    tagResultado.innerHTML = `Resultado: ${nome}`
+    tagResultado.innerHTML = `Resultado: <br>${nome}`
     popUpResultado.classList.add("Resultado");
 
 }
